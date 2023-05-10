@@ -71,10 +71,16 @@ jobs:
         fetch-depth: 0
 
     # Install the .NET Core workload
-    - name: Install .NET Core
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 7.0.x
+    - name: ⚙ Install prerequisites
+      run: |
+        ./init.ps1 -UpgradePrerequisites
+        dotnet --info
+
+        # Print mono version if it is present.
+        if (Get-Command mono -ErrorAction SilentlyContinue) {
+          mono --version
+        }
+      shell: pwsh
     - name: 🛠 build
       run: dotnet build -t:build,pack -c Release /v:m
 
