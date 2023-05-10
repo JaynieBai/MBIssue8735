@@ -51,7 +51,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        configuration: [Release]
         os:
         - ubuntu-20.04
         - macos-latest
@@ -77,6 +76,6 @@ jobs:
       with:
         dotnet-version: 7.0.x
     - name: 🛠 build
-      run: dotnet build -t:build,pack --no-restore -c Release /v:m
+      run: dotnet build -t:build,pack -c Release /v:m
 
     
