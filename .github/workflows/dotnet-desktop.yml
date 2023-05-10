@@ -77,6 +77,6 @@ jobs:
       with:
         dotnet-version: 7.0.x
     - name: 🛠 build
-      run: dotnet build
+      run: dotnet build -t:build,pack --no-restore -c Release /v:m
 
     
