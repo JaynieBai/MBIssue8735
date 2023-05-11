@@ -1,0 +1,57 @@
+Scheduler state at timestamp 638193082789264560:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (2)D:\WORK\MBIssue8735\Issue8735.sln ()
+
+Scheduler state at timestamp 638193082789420536:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (2)D:\WORK\MBIssue8735\Issue8735.sln ()
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082792650992:
+------------------------------------------------
+Node 1 Active (1 executing) (2 assigned requests, 2 configurations)
+  0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln ()
+    !1: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj ()
+
+  1: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj ()
+    >0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln ()
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082813336578:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [1] RUNNING Executing (2)D:\WORK\MBIssue8735\Issue8735.sln ()
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 2 Node 1 TV: Current File D:\WORK\MBIssue8735\Issue8735.sln
+
+Config 3 Node 1 TV: Current File D:\WORK\MBIssue8735\src\Issue8735.csproj
+BuildingSolutionFile = "true"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+  <ProjectConfiguration Project="{3E36E7C0-44AA-461F-9DD7-D254E78B084B}" AbsolutePath="D:\WORK\MBIssue8735\src\Issue8735.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+SolutionDir = "D:\WORK\MBIssue8735\"
+SolutionExt = ".sln"
+SolutionFileName = "Issue8735.sln"
+SolutionName = "Issue8735"
+SolutionPath = "D:\WORK\MBIssue8735\Issue8735.sln"
+Configuration = "Debug"
+Platform = "AnyCPU"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (2)D:\WORK\MBIssue8735\Issue8735.sln ()
+  1: [1] Completed (3)D:\WORK\MBIssue8735\src\Issue8735.csproj ()
+Configurations used during this build
+-------------------------------------
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)

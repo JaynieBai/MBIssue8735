@@ -1,0 +1,32 @@
+.NET ThreadPool Worker(15)-638193070850230739: Request 0(2) (nr 0) received and activated.
+.NET ThreadPool Worker(15)-638193070850249140: ERS: Active request is now 0(2) (nr 0).
+.NET ThreadPool Worker(15)-638193070850254137: ERS: Active request is now 0(2) (nr 0).
+.NET ThreadPool Worker(10)-638193070853773999: ERS: Request 0(2) (nr 0) is marked as complete.
+.NET ThreadPool Worker(10)-638193070853780128: ERS: Request 0(2) (nr 0) is being removed from the requests list.
+.NET ThreadPool Worker(10)-638193070853799788: ERS: Request is now 0(2) (nr 0) has had its builder cleaned up.
+.NET ThreadPool Worker(10)-638193070853807998: RRC: Reporting result for request 0(2) (nr 0).
+.NET ThreadPool Worker(15)-638193070853853604: CFB: Cleaning up build.  Requests Count 0  Status Idle
+.NET ThreadPool Worker(20)-638193075583847907: Request 0(3) (nr 0) received and activated.
+.NET ThreadPool Worker(20)-638193075583855889: ERS: Active request is now 0(3) (nr 0).
+.NET ThreadPool Worker(20)-638193075583860256: ERS: Active request is now 0(3) (nr 0).
+.NET ThreadPool Worker(25)-638193075584874211: ERS: Request 0(3) (nr 0) is marked as complete.
+.NET ThreadPool Worker(25)-638193075584879616: ERS: Request 0(3) (nr 0) is being removed from the requests list.
+.NET ThreadPool Worker(25)-638193075584885896: ERS: Request is now 0(3) (nr 0) has had its builder cleaned up.
+.NET ThreadPool Worker(25)-638193075584891209: RRC: Reporting result for request 0(3) (nr 0).
+.NET ThreadPool Worker(20)-638193075584912517: CFB: Cleaning up build.  Requests Count 0  Status Idle
+.NET ThreadPool Worker(13)-638193082217513170: Request 0(4) (nr 0) received and activated.
+.NET ThreadPool Worker(13)-638193082217518051: ERS: Active request is now 0(4) (nr 0).
+.NET ThreadPool Worker(13)-638193082217522223: ERS: Active request is now 0(4) (nr 0).
+.NET ThreadPool Worker(13)-638193082218123431: ERS: Request 0(4) (nr 0) is marked as complete.
+.NET ThreadPool Worker(13)-638193082218127585: ERS: Request 0(4) (nr 0) is being removed from the requests list.
+.NET ThreadPool Worker(13)-638193082218131263: ERS: Request is now 0(4) (nr 0) has had its builder cleaned up.
+.NET ThreadPool Worker(13)-638193082218134399: RRC: Reporting result for request 0(4) (nr 0).
+.NET ThreadPool Worker(29)-638193082218147628: CFB: Cleaning up build.  Requests Count 0  Status Idle
+.NET ThreadPool Worker(31)-638193082986840260: Request 0(5) (nr 0) received and activated.
+.NET ThreadPool Worker(31)-638193082986851201: ERS: Active request is now 0(5) (nr 0).
+.NET ThreadPool Worker(31)-638193082986856300: ERS: Active request is now 0(5) (nr 0).
+.NET ThreadPool Worker(32)-638193082987441709: ERS: Request 0(5) (nr 0) is marked as complete.
+.NET ThreadPool Worker(32)-638193082987446132: ERS: Request 0(5) (nr 0) is being removed from the requests list.
+.NET ThreadPool Worker(32)-638193082987450033: ERS: Request is now 0(5) (nr 0) has had its builder cleaned up.
+.NET ThreadPool Worker(32)-638193082987453546: RRC: Reporting result for request 0(5) (nr 0).
+.NET ThreadPool Worker(32)-638193082987466978: CFB: Cleaning up build.  Requests Count 0  Status Idle

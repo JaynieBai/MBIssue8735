@@ -1,4 +1,7 @@
-﻿namespace Issue8735
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography.X509Certificates;
+
+namespace Issue8735
 {
     public class Class1
     {
@@ -6,5 +9,6 @@
         {
             return firstName + " " + lastName;
         }
+
     }
 }

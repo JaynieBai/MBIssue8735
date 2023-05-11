@@ -1,0 +1,156 @@
+Scheduler state at timestamp 638193082898935431:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+Scheduler state at timestamp 638193082899001426:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082899609887:
+------------------------------------------------
+Node 1 Active (1 executing) (2 assigned requests, 2 configurations)
+  0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+    !1: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_IsProjectRestoreSupported)
+
+  1: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_IsProjectRestoreSupported)
+    >0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082901408294:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [1] RUNNING Executing (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082901543189:
+------------------------------------------------
+Node 1 Active (2 executing) (2 assigned requests, 2 configurations)
+  0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+    !2: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateRestoreProjectPathWalk)
+
+  2: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateRestoreProjectPathWalk)
+    >0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082901643086:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [1] RUNNING Executing (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082901793850:
+------------------------------------------------
+Node 1 Active (3 executing) (2 assigned requests, 2 configurations)
+  0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+    !3: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateRestoreGraphProjectEntry)
+
+  3: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateRestoreGraphProjectEntry)
+    >0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082902653212:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [1] RUNNING Executing (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082902695440:
+------------------------------------------------
+Node 1 Active (4 executing) (2 assigned requests, 2 configurations)
+  0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+    !4: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateProjectRestoreGraph)
+
+  4: [1] RUNNING Executing (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateProjectRestoreGraph)
+    >0: [1] RUNNING Blocked (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082902795341:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 2 configurations)
+  0: [1] RUNNING Executing (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082904544077:
+------------------------------------------------
+Node 1 Active (5 executing) (1 assigned requests, 3 configurations)
+  5: [1] RUNNING Executing (4)D:\WORK\MBIssue8735\Issue8735.sln ()
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082904638511:
+------------------------------------------------
+Node 1 Active (6 executing) (2 assigned requests, 4 configurations)
+  5: [1] RUNNING Blocked (4)D:\WORK\MBIssue8735\Issue8735.sln ()
+    !6: [1] RUNNING Executing (5)D:\WORK\MBIssue8735\src\Issue8735.csproj ()
+
+  6: [1] RUNNING Executing (5)D:\WORK\MBIssue8735\src\Issue8735.csproj ()
+    >5: [1] RUNNING Blocked (4)D:\WORK\MBIssue8735\Issue8735.sln ()
+
+No unscheduled requests.
+
+Scheduler state at timestamp 638193082908408091:
+------------------------------------------------
+Node 1 Active (5 executing) (1 assigned requests, 4 configurations)
+  5: [1] RUNNING Executing (4)D:\WORK\MBIssue8735\Issue8735.sln ()
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 2 Node 1 TV: Current File D:\WORK\MBIssue8735\Issue8735.sln
+MSBuildRestoreSessionId = "80ce2131-585a-4c3c-b64a-c96c5aeb55bd"
+
+Config 3 Node 1 TV: Current File D:\WORK\MBIssue8735\src\Issue8735.csproj
+MSBuildRestoreSessionId = "80ce2131-585a-4c3c-b64a-c96c5aeb55bd"
+ExcludeRestorePackageImports = "true"
+_RestoreSolutionFileUsed = "true"
+SolutionDir = "D:\WORK\MBIssue8735\"
+SolutionName = "Issue8735"
+SolutionFileName = "Issue8735.sln"
+SolutionPath = "D:\WORK\MBIssue8735\Issue8735.sln"
+SolutionExt = ".sln"
+Configuration = "Debug"
+Platform = "AnyCPU"
+
+Config 4 Node 1 TV: Current File D:\WORK\MBIssue8735\Issue8735.sln
+
+Config 5 Node 1 TV: Current File D:\WORK\MBIssue8735\src\Issue8735.csproj
+BuildingSolutionFile = "true"
+CurrentSolutionConfigurationContents = "<SolutionConfiguration>
+  <ProjectConfiguration Project="{3E36E7C0-44AA-461F-9DD7-D254E78B084B}" AbsolutePath="D:\WORK\MBIssue8735\src\Issue8735.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>"
+SolutionDir = "D:\WORK\MBIssue8735\"
+SolutionExt = ".sln"
+SolutionFileName = "Issue8735.sln"
+SolutionName = "Issue8735"
+SolutionPath = "D:\WORK\MBIssue8735\Issue8735.sln"
+Configuration = "Debug"
+Platform = "AnyCPU"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (2)D:\WORK\MBIssue8735\Issue8735.sln (Restore)
+  1: [1] Completed (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_IsProjectRestoreSupported)
+  2: [1] Completed (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateRestoreProjectPathWalk)
+  3: [1] Completed (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateRestoreGraphProjectEntry)
+  4: [1] Completed (3)D:\WORK\MBIssue8735\src\Issue8735.csproj (_GenerateProjectRestoreGraph)
+5: [1] Completed (4)D:\WORK\MBIssue8735\Issue8735.sln ()
+  6: [1] Completed (5)D:\WORK\MBIssue8735\src\Issue8735.csproj ()
+Configurations used during this build
+-------------------------------------
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
