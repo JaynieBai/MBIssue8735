@@ -30,3 +30,43 @@
 .NET ThreadPool Worker(31)-638193082986820735: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 1/1 Responses: 1
 .NET ThreadPool Worker(32)-638193082987456159: Reporting result from node 1 for request 0, parent -1.
 .NET ThreadPool Worker(32)-638193082987456159: Build complete
+.NET ThreadPool Worker(23)-638193689766365098: Received request 0 (node request 0) with parent -1 from node -1
+.NET ThreadPool Worker(23)-638193689766365098: Requesting creation of new node satisfying affinity InProc
+.NET ThreadPool Worker(23)-638193689766365098: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+.NET ThreadPool Worker(23)-638193689766388722: Node 1 created
+.NET ThreadPool Worker(23)-638193689766388722: Executing request 0 on node 1 with parent -1
+.NET ThreadPool Worker(23)-638193689766388722: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 1/1 Responses: 1
+.NET ThreadPool Worker(23)-638193689767189133: Reporting result from node 1 for request 0, parent -1.
+.NET ThreadPool Worker(23)-638193689767189133: Build complete
+.NET ThreadPool Worker(4)-638193690778356700: Received request 0 (node request 0) with parent -1 from node -1
+.NET ThreadPool Worker(4)-638193690778356700: Requesting creation of new node satisfying affinity InProc
+.NET ThreadPool Worker(4)-638193690778356700: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+.NET ThreadPool Worker(4)-638193690778376489: Node 1 created
+.NET ThreadPool Worker(4)-638193690778376489: Executing request 0 on node 1 with parent -1
+.NET ThreadPool Worker(4)-638193690778376489: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 1/1 Responses: 1
+.NET ThreadPool Worker(4)-638193690779276475: Reporting result from node 1 for request 0, parent -1.
+.NET ThreadPool Worker(4)-638193690779276475: Build complete
+.NET ThreadPool Worker(28)-638193690818289469: Received request 0 (node request 0) with parent -1 from node -1
+.NET ThreadPool Worker(28)-638193690818289469: Requesting creation of new node satisfying affinity InProc
+.NET ThreadPool Worker(28)-638193690818289469: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+.NET ThreadPool Worker(28)-638193690818305816: Node 1 created
+.NET ThreadPool Worker(28)-638193690818305816: Executing request 0 on node 1 with parent -1
+.NET ThreadPool Worker(28)-638193690818305816: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 1/1 Responses: 1
+.NET ThreadPool Worker(26)-638193690818908819: Reporting result from node 1 for request 0, parent -1.
+.NET ThreadPool Worker(26)-638193690818908819: Build complete
+.NET ThreadPool Worker(15)-638193691645211123: Received request 0 (node request 0) with parent -1 from node -1
+.NET ThreadPool Worker(15)-638193691645211123: Requesting creation of new node satisfying affinity InProc
+.NET ThreadPool Worker(15)-638193691645211123: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+.NET ThreadPool Worker(15)-638193691645229468: Node 1 created
+.NET ThreadPool Worker(15)-638193691645229468: Executing request 0 on node 1 with parent -1
+.NET ThreadPool Worker(15)-638193691645229468: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 1/1 Responses: 1
+.NET ThreadPool Worker(13)-638193691645921038: Reporting result from node 1 for request 0, parent -1.
+.NET ThreadPool Worker(13)-638193691645921038: Build complete
+.NET ThreadPool Worker(30)-638193691650708309: Received request 0 (node request 0) with parent -1 from node -1
+.NET ThreadPool Worker(30)-638193691650708309: Requesting creation of new node satisfying affinity InProc
+.NET ThreadPool Worker(30)-638193691650708309: Requests scheduled: 0 Unassigned Requests: 1 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 0/0 Responses: 1
+.NET ThreadPool Worker(30)-638193691650723000: Node 1 created
+.NET ThreadPool Worker(30)-638193691650723000: Executing request 0 on node 1 with parent -1
+.NET ThreadPool Worker(30)-638193691650723000: Requests scheduled: 0 Unassigned Requests: 0 Blocked Requests: 0 Unblockable Requests: 0 Free Nodes: 1/1 Responses: 1
+.NET ThreadPool Worker(14)-638193691651299636: Reporting result from node 1 for request 0, parent -1.
+.NET ThreadPool Worker(14)-638193691651299636: Build complete

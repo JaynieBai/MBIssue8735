@@ -114,3 +114,148 @@ Requests used during the build:
 -------------------------------
 Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
 0: [1] Completed (5)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+Scheduler state at timestamp 638193689766365098:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (6)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+Scheduler state at timestamp 638193689766388722:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (6)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 6 Node 1 TV: Current File d:\WORK\MBIssue8735\src\Issue8735.csproj
+DesignTimeBuild = "true"
+BuildingInsideVisualStudio = "true"
+BuildProjectReferences = "false"
+_ResolveReferenceDependencies = "true"
+SolutionDir = "d:\WORK\MBIssue8735\"
+AlwaysCompileMarkupFilesInSeparateDomain = "false"
+ProvideCommandLineArgs = "true"
+SkipCompilerExecution = "true"
+UseAppHost = "false"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (6)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+Scheduler state at timestamp 638193690778356700:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (7)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+Scheduler state at timestamp 638193690778376489:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (7)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 7 Node 1 TV: Current File d:\WORK\MBIssue8735\src\Issue8735.csproj
+DesignTimeBuild = "true"
+BuildingInsideVisualStudio = "true"
+BuildProjectReferences = "false"
+_ResolveReferenceDependencies = "true"
+SolutionDir = "d:\WORK\MBIssue8735\"
+AlwaysCompileMarkupFilesInSeparateDomain = "false"
+ProvideCommandLineArgs = "true"
+SkipCompilerExecution = "true"
+UseAppHost = "false"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (7)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+Scheduler state at timestamp 638193690818289469:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (8)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+Scheduler state at timestamp 638193690818305816:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (8)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 8 Node 1 TV: Current File d:\WORK\MBIssue8735\src\Issue8735.csproj
+DesignTimeBuild = "true"
+BuildingInsideVisualStudio = "true"
+BuildProjectReferences = "false"
+_ResolveReferenceDependencies = "true"
+SolutionDir = "d:\WORK\MBIssue8735\"
+AlwaysCompileMarkupFilesInSeparateDomain = "false"
+ProvideCommandLineArgs = "true"
+SkipCompilerExecution = "true"
+UseAppHost = "false"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (8)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+Scheduler state at timestamp 638193691645211123:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (9)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+Scheduler state at timestamp 638193691645229468:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (9)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 9 Node 1 TV: Current File d:\WORK\MBIssue8735\src\Issue8735.csproj
+DesignTimeBuild = "true"
+BuildingInsideVisualStudio = "true"
+BuildProjectReferences = "false"
+_ResolveReferenceDependencies = "true"
+SolutionDir = "d:\WORK\MBIssue8735\"
+AlwaysCompileMarkupFilesInSeparateDomain = "false"
+ProvideCommandLineArgs = "true"
+SkipCompilerExecution = "true"
+UseAppHost = "false"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (9)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+Scheduler state at timestamp 638193691650708309:
+------------------------------------------------
+Unscheduled requests:
+  0: [-1] Unscheduled (10)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+Scheduler state at timestamp 638193691650723000:
+------------------------------------------------
+Node 1 Active (0 executing) (1 assigned requests, 1 configurations)
+  0: [1] RUNNING Executing (10)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
+
+No unscheduled requests.
+
+Configurations used during this build
+-------------------------------------
+Config 10 Node 1 TV: Current File d:\WORK\MBIssue8735\src\Issue8735.csproj
+DesignTimeBuild = "true"
+BuildingInsideVisualStudio = "true"
+BuildProjectReferences = "false"
+_ResolveReferenceDependencies = "true"
+SolutionDir = "d:\WORK\MBIssue8735\"
+AlwaysCompileMarkupFilesInSeparateDomain = "false"
+ProvideCommandLineArgs = "true"
+SkipCompilerExecution = "true"
+UseAppHost = "false"
+
+Requests used during the build:
+-------------------------------
+Format: GlobalRequestId: [NodeId] FinalState (ConfigId) Path (Targets)
+0: [1] Completed (10)d:\WORK\MBIssue8735\src\Issue8735.csproj (Compile, CoreCompile)
