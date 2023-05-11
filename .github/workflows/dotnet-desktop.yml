@@ -76,6 +76,6 @@ jobs:
       shell: pwsh
       if: always()
     - name: 🛠 build
-      run: dotnet build -t:build,pack -c Release /v:m
+      run: dotnet build -noAutoResponse -t:build,pack -c Release /v:m /bl
 
     
