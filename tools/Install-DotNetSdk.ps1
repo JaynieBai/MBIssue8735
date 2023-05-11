@@ -50,43 +50,7 @@ if (!$arch) { # Windows Powershell leaves this blank
     if (${env:ProgramFiles(Arm)}) { $arch = 'ARM64' }
 }
 
-# Search for all .NET runtime versions referenced from MSBuild projects and arrange to install them.
-$runtimeVersions = @()
-$windowsDesktopRuntimeVersions = @()
-$aspnetRuntimeVersions = @()
-if (!$SdkOnly) {
-    Get-ChildItem "$PSScriptRoot\..\src\*.*proj","$PSScriptRoot\..\test\*.*proj","$PSScriptRoot\..\Directory.Build.props" -Recurse |% {
-        $projXml = [xml](Get-Content -Path $_)
-        $pg = $projXml.Project.PropertyGroup
-        if ($pg) {
-            $targetFrameworks = @()
-            $tf = $pg.TargetFramework
-            $targetFrameworks += $tf
-            $tfs = $pg.TargetFrameworks
-            if ($tfs) {
-                $targetFrameworks = $tfs -Split ';'
-            }
-        }
-        $targetFrameworks |? { $_ -match 'net(?:coreapp)?(\d+\.\d+)' } |% {
-            $v = $Matches[1]
-            $runtimeVersions += $v
-            $aspnetRuntimeVersions += $v
-            if ($v -ge '3.0' -and -not ($IsMacOS -or $IsLinux)) {
-                $windowsDesktopRuntimeVersions += $v
-            }
-        }
 
-        # Add target frameworks of the form: netXX
-        $targetFrameworks |? { $_ -match 'net(\d+\.\d+)' } |% {
-            $v = $Matches[1]
-            $runtimeVersions += $v
-            $aspnetRuntimeVersions += $v
-            if (-not ($IsMacOS -or $IsLinux)) {
-                $windowsDesktopRuntimeVersions += $v
-            }
-        }
-    }
-}
 
 if (!$IncludeAspNetCore) {
     $aspnetRuntimeVersions = @()
